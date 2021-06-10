@@ -6,6 +6,6 @@ final class SwiftUIToastTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SwiftUIToast().text, "Hello, World!")
+        XCTAssertEqual(SwiftUIToast.duration, 1.5)
     }
 }
