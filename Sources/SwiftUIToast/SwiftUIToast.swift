@@ -17,7 +17,7 @@ public class SwiftUIToast {
     @ObservedObject public static var state : ToastState = ToastState()
     
     static var duration: Double = 1.5
-    static var opacity: Double = 0.8
+    static var opacity: Double = 1.0
     static var shadow: CGFloat = 5.0
     static var position: ToastPosition = .top
     
@@ -106,7 +106,7 @@ public class SwiftUIToast {
                         }
                         .background(
                             Color(
-                                UIColor.systemBackground
+                                UIColor.tertiarySystemBackground
                             ).opacity(SwiftUIToast.opacity)
                         )
                         .cornerRadius(100)
